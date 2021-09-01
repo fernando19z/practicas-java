@@ -18,20 +18,21 @@ public class Estudiante {
 
 		System.out.println("Datos de als: ");
 		for(int j = 0; j < als.length; j++){
-			System.out.println("\nNombre:" + "[" + j + "]: " + als[j].getNombre());
-			System.out.println("Matricula" + "[" + j + "]: " + als[j].getMatricula());
-			System.out.println("Materia:" + "[" + j + "]: " + als[j].getMateria());
-			System.out.println("calificacion:" + "[" + j + "]: " + als[j].getCalificacion());
-			if(als[j].getCalificacion() >= dato ) {
-			System.out.println("aprovado");
-			}else {
-				System.out.println("reprovado");
+				System.out.println("\nNombre:" + "[" + j + "]: " + als[j].getNombre());
+				System.out.println("Matricula" + "[" + j + "]: " + als[j].getMatricula());
+				System.out.println("Materia:" + "[" + j + "]: " + als[j].getMateria());
+				System.out.println("calificacion:" + "[" + j + "]: " + als[j].getCalificacion());
+				if(als[j].getCalificacion() >= dato ) {
+				System.out.println("aprovado");
+				}else {
+					System.out.println("reprovado");
+				}
 			}
 			System.out.println("\nNombre:" + als1.getNombre());
 			System.out.println("Matricula" + als1.getMatricula());
 			System.out.println("Materia:" + als1.getMateria());
 			System.out.println("calificacion:" + als1.getCalificacion());
-			if(als[j].getCalificacion() >= dato ) {
+			if(als1.getCalificacion() >= dato ) {
 			System.out.println("aprovado");
 			}else {
 				System.out.println("reprovado");
@@ -40,7 +41,7 @@ public class Estudiante {
 			System.out.println("Matricula" + als2.getMatricula());
 			System.out.println("Materia:" + als2.getMateria());
 			System.out.println("calificacion:" + als2.getCalificacion());
-			if(als[j].getCalificacion() >= dato ) {
+			if(als2.getCalificacion() >= dato ) {
 			System.out.println("aprovado");
 			}else {
 				System.out.println("reprovado");
@@ -49,7 +50,7 @@ public class Estudiante {
 			System.out.println("Matricula" + als3.getMatricula());
 			System.out.println("Materia:" + als3.getMateria());
 			System.out.println("calificacion:" + als3.getCalificacion());
-			if(als[j].getCalificacion() >= dato ) {
+			if(als3.getCalificacion() >= dato ) {
 			System.out.println("aprovado");
 			}else {
 				System.out.println("reprovado");
@@ -58,7 +59,7 @@ public class Estudiante {
 			System.out.println("Matricula" + als4.getMatricula());
 			System.out.println("Materia:" + als4.getMateria());
 			System.out.println("calificacion:" + als4.getCalificacion());
-			if(als[j].getCalificacion() >= dato ) {
+			if(als4.getCalificacion() >= dato ) {
 			System.out.println("aprovado");
 			}else {
 				System.out.println("reprovado");
@@ -67,12 +68,12 @@ public class Estudiante {
 			System.out.println("Matricula" + als5.getMatricula());
 			System.out.println("Materia:" + als5.getMateria());
 			System.out.println("calificacion:" + als5.getCalificacion());
-			if(als[j].getCalificacion() >= dato ) {
+			if(als5.getCalificacion() >= dato ) {
 			System.out.println("aprovado");
 			}else {
 				System.out.println("reprovado");
 			}
-		}
+		
 
 	}
 
